@@ -6,18 +6,18 @@ This repository contains some private [CocoaPods](https://github.com/CocoaPods/C
 An available Podfile could be like this:
 
 ```ruby
+# The front repo is prior if conflicted
+# CocoaPods private repo
+source 'https://github.com/jcccn/PodSpecs.git'
+# CocoaPods master repo
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios,'7.0'
 
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
-# CocoaPods master repo
-source 'https://github.com/CocoaPods/Specs.git'
-
 pod 'AFNetworking'
-
-# CocoaPods private repo
-source 'https://github.com/jcccn/PodSpecs.git'
 
 pod 'Gingko'
 
