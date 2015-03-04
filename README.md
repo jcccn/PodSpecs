@@ -2,6 +2,27 @@
 
 This repository contains some private [CocoaPods](https://github.com/CocoaPods/CocoaPods) specifications.
 
+## Usage
+An available Podfile could be like this:
+
+```ruby
+platform :ios,'7.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+# CocoaPods master repo
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'AFNetworking'
+
+# CocoaPods private repo
+source 'https://github.com/jcccn/PodSpecs.git'
+
+pod 'Gingko'
+
+```
+
 ## Links
 
 - [Specs and the Specs Repo](http://guides.cocoapods.org/making/specs-and-specs-repo.html): Learn about creating Podspec's and the Spec repo.
