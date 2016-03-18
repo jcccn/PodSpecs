@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'JPush'
+  s.name     = 'JPush-SDK'
   s.version  = '1.7.4'
   s.summary  = 'JPush极光推送是中国优秀的消息推送服务平台，让开发者可以向其APP的用户推送通知或者消息，与用户互动。深圳市和讯华谷信息技术有限公司旗下产品。'
   s.homepage = 'https://github.com/jcccn/JPush-SDK-iOS'
