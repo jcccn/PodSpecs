@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    Copyright ©2013-2016 Qcloud.com. All Rights Reserved. 腾讯云 版权所有
                  LICENSE
                }
-  s.source   = { :git => 'https://github.com/jcccn/TIM-SDK-iOS.git', :tag => s.version }
+  s.source   = { :git => 'https://git.coding.net/jcccn/TIM-SDK-iOS.git', :tag => s.version }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
